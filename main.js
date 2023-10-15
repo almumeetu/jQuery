@@ -35,4 +35,4 @@ var mypara1 = $("<p> </p>").text("This is paragraph 0")
 $("#p2").after(mypara1)
 
 // before
-$("#p1").before(mypara1)
+$("#p1").before(mypara1) 
