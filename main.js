@@ -43,7 +43,7 @@ $("#p1").before(mypara1)
 //  document.querySelector("h2").innerHTML = "hello";
 
 // using jquery for selecting and changing text
-// $("h2").text("hello");
+// $("h2").text("hello"); 
 
 $(".my-div h2").text("bye");
 
