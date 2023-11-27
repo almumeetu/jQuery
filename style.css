@@ -3,4 +3,15 @@
     text-decoration: none;
   } */
 
-  
+/*--Moshiur jQuery Tutorial--*/
+
+.container {
+	max-width: 550px;
+	margin: 0 auto;
+	padding: 7em 10px;
+}
+.jquery {
+	padding: 30px 20px;
+	border: 1px solid chocolate;
+	text-align: center;
+}
