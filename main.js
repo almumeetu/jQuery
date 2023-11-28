@@ -128,3 +128,12 @@ $(document).ready(function () {
   })
 });
 
+
+$(document).ready(function () {
+
+  $("p").mouseenter(function () {
+    $(this).hide();
+
+  })
+});
+
