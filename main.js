@@ -141,8 +141,8 @@ $(document).ready(function () {
 
 $(document).ready(function () {
 
-  $("p").mouseenter(function () {
-    alert("Hello This Paragraph is hide");
+  $("h1").mouseenter(function () {
+    alert("Hello This Heading is hide");
 
   })
 });
