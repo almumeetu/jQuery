@@ -112,6 +112,8 @@
 
 */
 
+/* Moshiur jQuery Tutorial--*/
+
 $(document).ready( function(){
   $('button').click(function(){
     $('h1').hide();
@@ -131,8 +133,16 @@ $(document).ready(function () {
 
 $(document).ready(function () {
 
-  $("p").mouseenter(function () {
+  $("p").mouseleave(function () {
     $(this).hide();
+
+  })
+});
+
+$(document).ready(function () {
+
+  $("p").mouseenter(function () {
+    alert("Hello This Paragraph is hide");
 
   })
 });
