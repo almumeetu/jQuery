@@ -25,3 +25,16 @@
 	background: beige;
 	padding: 10px;
 }
+.btn {
+	background: brown;
+	padding: 10px 30px;
+	outline: none;
+	border: none;
+	color: #fff;
+	font-size: 14px;
+	border-radius: 5px;
+  transition: .3s;
+}
+.btn:hover{
+  color: black;
+}

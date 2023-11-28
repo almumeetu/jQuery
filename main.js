@@ -75,13 +75,13 @@
 
 // 4. event listener
 // $(".mybtn").click(function () {
-  // var value = this.innerHTML;
-  // $("#result").text(value + " is selected");
+// var value = this.innerHTML;
+// $("#result").text(value + " is selected");
 // });
 
 // $(".mybtn").mouseover(function () {
-  // var value = this.innerHTML;
-  // $("#result").text(value + " is overed by mouse");
+// var value = this.innerHTML;
+// $("#result").text(value + " is overed by mouse");
 // });
 
 // 5. animation
@@ -111,3 +111,20 @@
 
 
 */
+
+$(document).ready( function(){
+  $('button').click(function(){
+    $('h1').hide();
+    
+  })
+});
+
+
+$(document).ready(function () {
+
+  $("p").dblclick(function () {
+    $(this).hide();
+
+  })
+});
+
